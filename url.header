@@ -1,0 +1,16 @@
+$: curl --head http://www.suchebiete.com/kat_Sport,24,3213,Kleinb%C3%83%C2%B6singen,40,0.html
+
+#VERSION: curl 7.19.7 (x86_64-pc-linux-gnu) libcurl/7.19.7 OpenSSL/0.9.8k zlib/1.2.3.3 libidn/1.15
+
+HTTP/1.0 200 OK
+Date: Mon, 19 Sep 2011 12:15:21 GMT
+Server: Apache/2.2.20
+Cache-Control: no-cache,must-revalidate
+Last-Modified: Tue, 30 Aug 2011 17:18:24 GMT
+ETag: 830d6b5c4d2c4f70ec74bd8ce7cc1927
+Content-Type: text/html
+X-Cache: MISS from proxy.localdomain
+X-Cache-Lookup: MISS from proxy.localdomain:8000
+Via: 1.0 proxy.localdomain:8000 (squid/2.6.STABLE22)
+Proxy-Connection: keep-alive
+
