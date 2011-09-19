@@ -1,14 +1,16 @@
-$: curl --head http://www.suchebiete.com/kat_Sport,24,3213,Kleinb%C3%83%C2%B6singen,40,0.html
+$: curl --head http://forums.mysql.com/read.php?10,146117,146155
 
 #VERSION: curl 7.19.7 (x86_64-pc-linux-gnu) libcurl/7.19.7 OpenSSL/0.9.8k zlib/1.2.3.3 libidn/1.15
 
 HTTP/1.0 200 OK
-Date: Mon, 19 Sep 2011 12:15:21 GMT
-Server: Apache/2.2.20
-Cache-Control: no-cache,must-revalidate
-Last-Modified: Tue, 30 Aug 2011 17:18:24 GMT
-ETag: 830d6b5c4d2c4f70ec74bd8ce7cc1927
-Content-Type: text/html
+Date: Mon, 19 Sep 2011 12:30:47 GMT
+Server: Apache/2.2.19 (Fedora)
+X-Powered-By: PHP/5.2.13
+Set-Cookie: MySQL_S=igguqlvpn11kgdoqoibqur53e0; path=/; domain=mysql.com
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
 X-Cache: MISS from proxy.localdomain
 X-Cache-Lookup: MISS from proxy.localdomain:8000
 Via: 1.0 proxy.localdomain:8000 (squid/2.6.STABLE22)
