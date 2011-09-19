@@ -1,0 +1,22 @@
+WARNING:root:uncaught exception
+Traceback (most recent call last):
+  File "/usr/local/src/tornado-2.1/tornado/tornado/simple_httpclient.py", line 289, in cleanup
+    yield
+  File "/usr/local/src/tornado-2.1/tornado/tornado/stack_context.py", line 183, in wrapped
+    callback(*args, **kwargs)
+  File "/usr/local/src/tornado-2.1/tornado/tornado/simple_httpclient.py", line 384, in _on_chunk_length
+    self._on_chunk_data)
+  File "/usr/local/src/tornado-2.1/tornado/tornado/iostream.py", line 171, in read_bytes
+    self._check_closed()
+  File "/usr/local/src/tornado-2.1/tornado/tornado/iostream.py", line 493, in _check_closed
+    raise IOError("Stream is closed")
+IOError: Stream is closed
+Traceback (most recent call last):
+  File "testHttpclient.py", line 3, in <module>
+    res = http.fetch("http://forums.mysql.com/read.php?10,146117,146155")
+  File "/usr/local/src/tornado-2.1/tornado/tornado/httpclient.py", line 85, in fetch
+    response.rethrow()
+  File "/usr/local/src/tornado-2.1/tornado/tornado/httpclient.py", line 357, in rethrow
+    raise self.error
+IOError: Stream is closed
+
